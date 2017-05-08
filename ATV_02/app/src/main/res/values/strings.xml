@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ATV_01</string>
+    <string name="toast">TOAST</string>
+    <string name="enviar_tela_2">ENVIAR TELA 2</string>
+    <string name="txt_titulo">ATIVIDADE 01</string>
+    <string name="voltar">VOLTAR</string>
+    <string name="aluno">ALUNO:</string>
+</resources>

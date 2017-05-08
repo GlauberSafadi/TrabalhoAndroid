@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ATV_03</string>
+    <string name="settings">SETTINGS</string>
+    <string name="nome">Nome</string>
+    <string name="telefone">Telefone</string>
+    <string name="detalhes_da_conta">DETALHES DA CONTA</string>
+    <string name="conta_p_blica">Conta Pública</string>
+    <string name="conta_privada">Conta Privada</string>
+    <string name="ativar_conta">Ativar Conta</string>
+    <string name="salvar_dados">SALVAR DADOS</string>
+</resources>

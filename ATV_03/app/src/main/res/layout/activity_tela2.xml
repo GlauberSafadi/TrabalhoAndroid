@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/padding"
+    tools:context="com.example.glauber.atv_02.Tela2Activity">
+
+
+    <Button
+        android:id="@+id/btn_voltar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/marginbot"
+        android:text="@string/voltar"
+        android:textSize="@dimen/textbutton" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/marginbot"
+        android:gravity="center"
+        android:text="@string/formul_rio_aluno"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/viewheight"
+        android:background="#000000" />
+
+    <EditText
+        android:id="@+id/et_nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nome"
+        android:inputType="textPersonName"
+        android:maxLength="50" />
+
+    <EditText
+        android:id="@+id/et_telefone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/telefone"
+        android:inputType="phone"
+        android:maxLength="13" />
+
+    <EditText
+        android:id="@+id/et_rua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/rua"
+        android:inputType="textCapSentences"
+        android:maxLength="100" />
+
+    <EditText
+        android:id="@+id/et_site"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/site"
+        android:inputType="textCapSentences"
+        android:maxLength="50" />
+
+    <EditText
+        android:id="@+id/et_nota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/grade"
+        android:inputType="number"
+        android:maxLength="2" />
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cadastrar"
+        android:textSize="@dimen/textbutton" />
+
+</LinearLayout>

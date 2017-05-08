@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding">5dp</dimen>
+    <dimen name="marginbot">5dp</dimen>
+    <dimen name="viewheight">1dp</dimen>
+    <dimen name="textbutton">20sp</dimen>
+    <dimen name="alturalista">0dp</dimen>
+</resources>
