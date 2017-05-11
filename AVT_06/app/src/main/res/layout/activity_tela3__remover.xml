@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/padding"
+    tools:context="com.example.glauber.avt_06.tela.Tela3_RemoverActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margBot"
+        android:gravity="center"
+        android:text="@string/remo_o_de_estudante"
+        android:textSize="@dimen/textitle"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/et_estudante_nomeR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/edittex_remover_nome"
+        android:inputType="textCapSentences" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/viewdp"
+        android:layout_marginTop="@dimen/margTop"
+        android:background="#000000" />
+
+    <Button
+        android:id="@+id/btn_remover"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margBot"
+        android:text="@string/btn_remover" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/viewdp"
+        android:background="#000000" />
+
+    <Button
+        android:id="@+id/btn_voltarR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/voltar" />
+
+</LinearLayout>

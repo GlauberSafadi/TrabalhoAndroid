@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">AVT_06</string>
+    <string name="lista_de_estudantes">LISTA DE ESTUDANTES</string>
+    <string name="btn_inserir">INSERIR</string>
+    <string name="btn_remover">REMOVER</string>
+    <string name="btn_atualizar">ATUALIZAR</string>
+    <string name="inserir">INSERIR</string>
+    <string name="voltar">VOLTAR</string>
+    <string name="formul_rio_de_cadastro">FORMULÁRIO DE CADASTRO</string>
+    <string name="txtToastEmpty">Por favor, preencha todos os campos</string>
+    <string name="remo_o_de_estudante">REMOÇÃO DE ESTUDANTE</string>
+    <string name="edittex_remover_nome">Nome do Aluno pra remoção</string>
+    <string name="toastRemover">Por favor, preencha o campo com Nome do Aluno</string>
+</resources>

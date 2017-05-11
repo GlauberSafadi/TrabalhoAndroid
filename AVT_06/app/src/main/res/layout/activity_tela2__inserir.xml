@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/padding"
+    tools:context="com.example.glauber.avt_06.tela.Tela2_InserirActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margBot"
+        android:gravity="center"
+        android:text="@string/formul_rio_de_cadastro"
+        android:textSize="@dimen/textitle"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/et_estudante_nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome"
+        android:inputType="textCapSentences"
+        android:maxLength="50" />
+
+    <EditText
+        android:id="@+id/et_estudante_telefone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Telefone"
+        android:inputType="phone"
+        android:maxLength="13" />
+
+    <EditText
+        android:id="@+id/et_estudante_idade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Idade"
+        android:inputType="number"
+        android:maxLength="3" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/viewdp"
+        android:layout_marginTop="@dimen/margTop"
+        android:background="#000000" />
+
+    <Button
+        android:id="@+id/btn_inserir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margBot"
+        android:text="@string/inserir" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/viewdp"
+        android:background="#000000" />
+
+    <Button
+        android:id="@+id/btn_voltarI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/voltar" />
+
+
+</LinearLayout>
